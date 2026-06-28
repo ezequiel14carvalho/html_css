@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Aumente ou diminua a janela dessa página</p>
+        <picture>
+            <source media="(max-width: 650px)" srcset="img/pequena.png">
+            <img src="img/grande.png" alt="imagem flexível">
+        </picture>
+        
+    <h1>Tocador de Áudio</h1>
+    <p>Acesse o áudio abaixo:</p>
+    <audio src="arquivos/I Don't Know Why - Alex Robinson.mp3" controls></audio>
+
+    <h1>Tocador de Vídeos</h1>
+    <p>Acesse o vídio abaixo:</p>
+    <video src="videos/meu-video.mp4" width="300" controls></video>
+
+    <h1>Videos do Youtube</h1>
+    <p>Acesse o vídeo pelo Youtube abaixo:</p>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/Km71Rr9K-Bw?si=egSYgu8txPedCbsH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
