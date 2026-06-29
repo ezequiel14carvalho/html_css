@@ -8,16 +8,34 @@
         h1 {
             background-color: rgb(50, 50, 50);
             color: white;
-               
+            text-align: center;   
         }
+
+        h2 {
+            background-color: rgb(48, 46, 46);
+            width: max-content;
+        }
+
         p {
             color: rgb(255, 255, 255);
-            background-color: rgb(48, 46, 46);
+
         }
         a {
             color: darkkhaki
-            
         }
+        p.a {
+            text-align: right;
+            background-color: rgb(36, 36, 36);
+        }
+            
+        
         .fonte-clique {
             font-family: fantasy;
+        }
+        div > p.oculto {
+            display: none;
+        }
+
+        div:hover > p.oculto {
+            display: block;
         }
