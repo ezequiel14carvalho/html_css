@@ -1,2 +1,26 @@
 @charset "UTF-8";
 
+body {
+    background-color: #E7EDE8;
+}
+header {
+    background-color: #3A8747;
+    text-align: center;
+}
+nav {
+    background-color: #3A8747;
+}
+a {
+    background-color: white;
+}
+main {
+    background-color: #75BA81;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
